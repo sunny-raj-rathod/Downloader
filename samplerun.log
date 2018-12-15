@@ -1,0 +1,153 @@
+Sunnys-MacBook-Pro:Downloader sunnyrajrathod$ mvn clean install &&  java -jar -Dspring.config.location=downloader-console-app/src/main/resources/application.properties downloader-console-app/target/downloader-console-app-0.0.1-SNAPSHOT.jar "ftp://anonymous:anonymous@speedtest.tele2.net/1KB.zip" "sftp://sunnyrajrathod:cccc@localhost/Users/sunnyrajrathod/leetcode-solutions/README.md" "https://www.baeldung.com/jackson-jsonmappingexception" "http://www.ovh.net/files/1Mb.dat" "ftp://anonymous:anonymous@speedtest.tele2.net/200MB.zip" "http://www.ovh.net/files/1Gb.dat"
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for com.agoda:downloader-console-app:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ com.agoda:downloader-console-app:[unknown-version], /Users/sunnyrajrathod/Dropbox/Downloader/downloader-console-app/pom.xml, line 88, column 21
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] Downloader                                                         [pom]
+[INFO] file-downloader                                                    [jar]
+[INFO] downloader-console-app                                             [jar]
+[INFO]
+[INFO] ------------------------< com.agoda:Downloader >------------------------
+[INFO] Building Downloader 0.0.1-SNAPSHOT                                 [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ Downloader ---
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ Downloader ---
+[INFO] Installing /Users/sunnyrajrathod/Dropbox/Downloader/pom.xml to /Users/sunnyrajrathod/.m2/repository/com/agoda/Downloader/0.0.1-SNAPSHOT/Downloader-0.0.1-SNAPSHOT.pom
+[INFO]
+[INFO] ---------------------< com.agoda:file-downloader >----------------------
+[INFO] Building file-downloader 0.0.1-SNAPSHOT                            [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ file-downloader ---
+[INFO] Deleting /Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/target
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ file-downloader ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ file-downloader ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/target/classes
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ file-downloader ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ file-downloader ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/target/test-classes
+[INFO] /Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/test/java/com/agoda/filedownloader/manager/DownloadManagerTest.java: /Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/test/java/com/agoda/filedownloader/manager/DownloadManagerTest.java uses unchecked or unsafe operations.
+[INFO] /Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/test/java/com/agoda/filedownloader/manager/DownloadManagerTest.java: Recompile with -Xlint:unchecked for details.
+[INFO]
+[INFO] --- maven-surefire-plugin:2.21.0:test (default-test) @ file-downloader ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.agoda.filedownloader.manager.DownloadManagerTest
+java.lang.Exception
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.752 s - in com.agoda.filedownloader.manager.DownloadManagerTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ file-downloader ---
+[INFO] Building jar: /Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/target/file-downloader-0.0.1-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ file-downloader ---
+[INFO] Installing /Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/target/file-downloader-0.0.1-SNAPSHOT.jar to /Users/sunnyrajrathod/.m2/repository/com/agoda/file-downloader/0.0.1-SNAPSHOT/file-downloader-0.0.1-SNAPSHOT.jar
+[INFO] Installing /Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/pom.xml to /Users/sunnyrajrathod/.m2/repository/com/agoda/file-downloader/0.0.1-SNAPSHOT/file-downloader-0.0.1-SNAPSHOT.pom
+[INFO]
+[INFO] ------------------< com.agoda:downloader-console-app >------------------
+[INFO] Building downloader-console-app 0.0.1-SNAPSHOT                     [3/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ downloader-console-app ---
+[INFO] Deleting /Users/sunnyrajrathod/Dropbox/Downloader/downloader-console-app/target
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ downloader-console-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ downloader-console-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /Users/sunnyrajrathod/Dropbox/Downloader/downloader-console-app/target/classes
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ downloader-console-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sunnyrajrathod/Dropbox/Downloader/downloader-console-app/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ downloader-console-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/sunnyrajrathod/Dropbox/Downloader/downloader-console-app/target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ downloader-console-app ---
+[INFO] Surefire report directory: /Users/sunnyrajrathod/Dropbox/Downloader/downloader-console-app/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.agoda.codingtest.client.FileDownloadClientTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.289 sec - in com.agoda.codingtest.client.FileDownloadClientTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ downloader-console-app ---
+[INFO] Building jar: /Users/sunnyrajrathod/Dropbox/Downloader/downloader-console-app/target/downloader-console-app-0.0.1-SNAPSHOT.jar
+[INFO]
+[INFO] --- spring-boot-maven-plugin:1.2.5.RELEASE:repackage (default) @ downloader-console-app ---
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ downloader-console-app ---
+[INFO] Installing /Users/sunnyrajrathod/Dropbox/Downloader/downloader-console-app/target/downloader-console-app-0.0.1-SNAPSHOT.jar to /Users/sunnyrajrathod/.m2/repository/com/agoda/downloader-console-app/0.0.1-SNAPSHOT/downloader-console-app-0.0.1-SNAPSHOT.jar
+[INFO] Installing /Users/sunnyrajrathod/Dropbox/Downloader/downloader-console-app/pom.xml to /Users/sunnyrajrathod/.m2/repository/com/agoda/downloader-console-app/0.0.1-SNAPSHOT/downloader-console-app-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO]
+[INFO] Downloader 0.0.1-SNAPSHOT .......................... SUCCESS [  0.357 s]
+[INFO] file-downloader .................................... SUCCESS [  6.129 s]
+[INFO] downloader-console-app 0.0.1-SNAPSHOT .............. SUCCESS [  1.790 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.690 s
+[INFO] Finished at: 2018-11-11T17:24:06+05:30
+[INFO] ------------------------------------------------------------------------
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.5.RELEASE)
+
+2018-11-11 17:24:07.751  INFO 48617 --- [           main] c.a.codingtest.DownloaderApplication     : Starting DownloaderApplication v0.0.1-SNAPSHOT on Sunnys-MacBook-Pro.local with PID 48617 (/Users/sunnyrajrathod/Dropbox/Downloader/downloader-console-app/target/downloader-console-app-0.0.1-SNAPSHOT.jar started by sunnyrajrathod in /Users/sunnyrajrathod/Dropbox/Downloader)
+2018-11-11 17:24:07.755  INFO 48617 --- [           main] c.a.codingtest.DownloaderApplication     : No active profile set, falling back to default profiles: default
+2018-11-11 17:24:07.814  INFO 48617 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3edca816: startup date [Sun Nov 11 17:24:07 IST 2018]; root of context hierarchy
+2018-11-11 17:24:08.375  INFO 48617 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-11-11 17:24:08.393  INFO 48617 --- [           main] c.a.codingtest.DownloaderApplication     : Started DownloaderApplication in 0.96 seconds (JVM running for 1.393)
+Downloading...2018-11-11 17:24:09.893  INFO 48617 --- [           main] c.a.codingtest.DownloaderApplication     : File with URL ftp://anonymous:anonymous@speedtest.tele2.net/1KB.zip downloaded to /Users/sunnyrajrathod/agoda-test/final/speedtest.tele2.net_1KB.zip
+Downloading...2018-11-11 17:24:10.741  INFO 48617 --- [           main] c.a.codingtest.DownloaderApplication     : File with URL sftp://sunnyrajrathod:cccc@localhost/Users/sunnyrajrathod/leetcode-solutions/README.md downloaded to /Users/sunnyrajrathod/agoda-test/final/localhost_Users_sunnyrajrathod_leetcode-solutions_README.md
+Downloading...2018-11-11 17:24:12.099  INFO 48617 --- [           main] c.a.codingtest.DownloaderApplication     : File with URL https://www.baeldung.com/jackson-jsonmappingexception downloaded to /Users/sunnyrajrathod/agoda-test/final/www.baeldung.com_jackson-jsonmappingexception
+Downloading...2018-11-11 17:24:13.027  INFO 48617 --- [           main] c.a.codingtest.DownloaderApplication     : File with URL http://www.ovh.net/files/1Mb.dat downloaded to /Users/sunnyrajrathod/agoda-test/final/www.ovh.net_files_1Mb.dat
+Downloading...2018-11-11 17:25:03.912  INFO 48617 --- [           main] c.a.codingtest.DownloaderApplication     : File with URL ftp://anonymous:anonymous@speedtest.tele2.net/200MB.zip downloaded to /Users/sunnyrajrathod/agoda-test/final/speedtest.tele2.net_200MB.zip
+Downloading...2018-11-11 17:25:49.341  INFO 48617 --- [           main] c.a.codingtest.DownloaderApplication     : File with URL http://www.ovh.net/files/1Gb.dat downloaded to /Users/sunnyrajrathod/agoda-test/final/www.ovh.net_files_1Gb.dat
+2018-11-11 17:25:49.345  INFO 48617 --- [       Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3edca816: startup date [Sun Nov 11 17:24:07 IST 2018]; root of context hierarchy
+2018-11-11 17:25:49.347  INFO 48617 --- [       Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+

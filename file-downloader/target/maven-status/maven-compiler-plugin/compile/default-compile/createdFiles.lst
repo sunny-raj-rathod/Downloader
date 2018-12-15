@@ -1,0 +1,16 @@
+com/agoda/filedownloader/downloader/FtpDownloader.class
+com/agoda/filedownloader/util/Reader.class
+com/agoda/filedownloader/connection/FtpConnection.class
+com/agoda/filedownloader/downloader/SftpDownloader.class
+com/agoda/filedownloader/factory/DownloaderFactory.class
+com/agoda/filedownloader/connection/SftpConnection.class
+com/agoda/filedownloader/downloader/Downloader.class
+com/agoda/filedownloader/connection/ConnectionParams.class
+com/agoda/filedownloader/exception/UnsupportedFormatException.class
+com/agoda/filedownloader/exception/DownloadException.class
+com/agoda/filedownloader/util/Utility.class
+com/agoda/filedownloader/connection/Connection.class
+com/agoda/filedownloader/configuration/DownloadProperties.class
+com/agoda/filedownloader/connection/HttpConnection.class
+com/agoda/filedownloader/downloader/HttpDownloader.class
+com/agoda/filedownloader/manager/DownloadManager.class

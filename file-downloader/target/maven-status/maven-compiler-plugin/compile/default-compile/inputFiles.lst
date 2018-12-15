@@ -1,0 +1,16 @@
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/connection/SftpConnection.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/connection/HttpConnection.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/downloader/Downloader.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/downloader/FtpDownloader.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/connection/Connection.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/exception/DownloadException.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/factory/DownloaderFactory.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/connection/ConnectionParams.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/downloader/HttpDownloader.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/util/Reader.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/manager/DownloadManager.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/configuration/DownloadProperties.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/util/Utility.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/connection/FtpConnection.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/downloader/SftpDownloader.java
+/Users/sunnyrajrathod/Dropbox/Downloader/file-downloader/src/main/java/com/agoda/filedownloader/exception/UnsupportedFormatException.java

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.agoda.filedownloader.manager.DownloadManagerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.846 s - in com.agoda.filedownloader.manager.DownloadManagerTest
